@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <applicability_mode>query</applicability_mode>
+        <autopilot_topic>false</autopilot_topic>
+        <category>a06ab9d3c3ffc798f174b13ed4013126</category>
+        <channels/>
+        <connect_queue/>
+        <context_profiles/>
+        <description>Help users check their incident status.</description>
+        <dialog_acts_enabled>false</dialog_acts_enabled>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <foundational>false</foundational>
+        <graph>{
+  "graph_api_version": "1.0.82",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "3008e36573224f8b911188d815e96e3c": {
+          "id": "3008e36573224f8b911188d815e96e3c",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Hi, I can help uhh.. Thanks me later.."
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          }
+        },
+        "ea8fc8f38d96477aa772352dff200153": {
+          "id": "ea8fc8f38d96477aa772352dff200153",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "I'm glad to help uhh.. "
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          }
+        },
+        "9a3d8f279b3f451aaee3c0b0f47798f8": {
+          "id": "9a3d8f279b3f451aaee3c0b0f47798f8",
+          "stepType": "TextOutput",
+          "name": "Incident Impact confirm",
+          "secure": false,
+          "value": [
+            {
+              "value": "(function execute() {\n      // Return the display value (Label) for the category choice\n      return 'Thank you! You entered incident Impact: ' + vaInputs.incident_impact.getDisplayValue();\n  })()",
+              "mode": "script"
+            }
+          ],
+          "isCollapsible": true,
+          "requestFeedback": true,
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "8bd4fc381d644ad0a56e23a34a53b291": {
+          "name": "Incident Impact",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "What's ur Incident Impact?"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "skipReprompt": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "e6243ff821ce4c5d84293526c819ea2d",
+          "detailDescription": "",
+          "id": "8bd4fc381d644ad0a56e23a34a53b291",
+          "stepType": "ChoicePrompt",
+          "hasCardHeader": false,
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "",
+            "cardFields": {},
+            "cardDefinition": {}
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false
+        },
+        "cab045b618cb45a09cc244992787f863": {
+          "id": "cab045b618cb45a09cc244992787f863",
+          "stepType": "BooleanPrompt",
+          "name": "Search Another ",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Do uhh want to search another Incident?"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "skipReprompt": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "hasCardHeader": false,
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "",
+            "cardFields": {},
+            "cardDefinition": {}
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "variableId": "a1499a7318e94dbf80f92ccddb663fb6",
+          "detailDescription": ""
+        },
+        "4f71640f538a494cadcc31e914ce0d5a": {
+          "id": "4f71640f538a494cadcc31e914ce0d5a",
+          "stepType": "Decision",
+          "name": "Search"
+        }
+      },
+      "edges": [
+        {
+          "id": "e743125e7e604d348ebc68c92d7c4d84",
+          "edgeType": "Edge",
+          "source": "9a3d8f279b3f451aaee3c0b0f47798f8",
+          "target": "cab045b618cb45a09cc244992787f863",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "04b3851e58154ac8853e9db4cef25b28",
+          "edgeType": "Branch",
+          "source": "4f71640f538a494cadcc31e914ce0d5a",
+          "target": "8bd4fc381d644ad0a56e23a34a53b291",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.search_another_=true",
+            "mode": "query"
+          },
+          "label": "Yes"
+        },
+        {
+          "id": "e4228e94d4ac445dbaa7af45592fc8b2",
+          "edgeType": "Branch",
+          "source": "4f71640f538a494cadcc31e914ce0d5a",
+          "target": "ea8fc8f38d96477aa772352dff200153",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.search_another_=false",
+            "mode": "query"
+          },
+          "label": "No"
+        },
+        {
+          "id": "a3cf92fe07074c92947843247f2a7292",
+          "edgeType": "Edge",
+          "source": "3008e36573224f8b911188d815e96e3c",
+          "target": "8bd4fc381d644ad0a56e23a34a53b291",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "0716ee0bef9d4053bd004c78049e2426",
+          "edgeType": "Edge",
+          "source": "8bd4fc381d644ad0a56e23a34a53b291",
+          "target": "9a3d8f279b3f451aaee3c0b0f47798f8",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "9b676fa9d1294e89ad2701907a45161e",
+          "edgeType": "Edge",
+          "source": "cab045b618cb45a09cc244992787f863",
+          "target": "4f71640f538a494cadcc31e914ce0d5a",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "c4c9f3627fe348219ae5dc454ae9c5c9": {
+      "id": "c4c9f3627fe348219ae5dc454ae9c5c9",
+      "name": "LiveAgent_application",
+      "value": {
+        "mode": "simple",
+        "value": null
+      },
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    },
+    "e6243ff821ce4c5d84293526c819ea2d": {
+      "id": "e6243ff821ce4c5d84293526c819ea2d",
+      "name": "incident_impact",
+      "label": "Incident Impact",
+      "varType": "choice",
+      "choices": [
+        {
+          "label": "1 - High",
+          "value": "1 - High"
+        },
+        {
+          "label": "2 - Medium",
+          "value": "2 - Medium"
+        },
+        {
+          "label": "3 - Low",
+          "value": "3 - Low",
+          "checked": true,
+          "meta": {}
+        }
+      ],
+      "category": "vaInputs",
+      "nodeId": "8bd4fc381d644ad0a56e23a34a53b291",
+      "isHidden": false
+    },
+    "a1499a7318e94dbf80f92ccddb663fb6": {
+      "id": "a1499a7318e94dbf80f92ccddb663fb6",
+      "name": "search_another_",
+      "label": "Search Another ",
+      "varType": "boolean",
+      "secure": false,
+      "category": "vaInputs",
+      "nodeId": "cab045b618cb45a09cc244992787f863",
+      "isHidden": false
+    }
+  }
+}</graph>
+        <key_phrases>IT Support – Check Incident Status,Incident</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <model_type>nlu_keyword</model_type>
+        <modify_confirmation_enabled>false</modify_confirmation_enabled>
+        <name>IT Support – Check Incident Status</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles/>
+        <root_topic_id/>
+        <secure_custom_input_control>false</secure_custom_input_control>
+        <source_topic_id/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>Syeda</sys_created_by>
+        <sys_created_on>2026-10-14 14:41:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>f44f336bc37b8f98f174b13ed4013131</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name>IT Support – Check Incident Status</sys_name>
+        <sys_package display_value="NeedIt Virtual Agent Conversations" source="x_1365217_needit_2">8d2ab993c3ffc798f174b13ed4013150</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt Virtual Agent Conversations">8d2ab993c3ffc798f174b13ed4013150</sys_scope>
+        <sys_update_name>sys_cb_topic_f44f336bc37b8f98f174b13ed4013131</sys_update_name>
+        <sys_updated_by>Syeda</sys_updated_by>
+        <sys_updated_on>2026-10-14 17:09:52</sys_updated_on>
+        <title>IT Support – Check Incident Status</title>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+    </sys_cb_topic>
+    <sys_translated_text action="delete_multiple" query="documentkey=f44f336bc37b8f98f174b13ed4013131"/>
+</record_update>

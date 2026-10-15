@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cs_topic_language">
+    <sys_cs_topic_language action="DELETE">
+        <cs_topic_id display_value="_PRVW__e2ca94665b46406c80460583857a2981">05018b9bc3b34b98f174b13ed401313d</cs_topic_id>
+        <language_code>en</language_code>
+        <nlu_entities>[{"variable_name":"needit_list_2","nlu_entity":"","nlu_entity_label":""}]</nlu_entities>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider>64c023c17300330021a044764df6a70e</nlu_provider>
+        <sys_class_name>sys_cs_topic_language</sys_class_name>
+        <sys_created_by>Syeda</sys_created_by>
+        <sys_created_on>2026-10-13 15:31:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>89018b9bc3b34b98f174b13ed4013147</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NeedIt Virtual Agent Conversations" source="x_1365217_needit_2">8d2ab993c3ffc798f174b13ed4013150</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt Virtual Agent Conversations">8d2ab993c3ffc798f174b13ed4013150</sys_scope>
+        <sys_update_name>sys_cs_topic_language_89018b9bc3b34b98f174b13ed4013147</sys_update_name>
+        <sys_updated_by>Syeda</sys_updated_by>
+        <sys_updated_on>2026-10-13 15:31:19</sys_updated_on>
+    </sys_cs_topic_language>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt Virtual Agent Conversations">8d2ab993c3ffc798f174b13ed4013150</application>
+        <file_path/>
+        <instance_id>e1bc317ffb1b1658843df4344eefdc7c</instance_id>
+        <instance_name>dev294865</instance_name>
+        <name>sys_cs_topic_language_89018b9bc3b34b98f174b13ed4013147</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cs_topic_language"><sys_cs_topic_language action="INSERT_OR_UPDATE"><cs_topic_id display_value="_PRVW__e2ca94665b46406c80460583857a2981">05018b9bc3b34b98f174b13ed401313d</cs_topic_id><language_code>en</language_code><nlu_entities>[{"variable_name":"needit_list_2","nlu_entity":"","nlu_entity_label":""}]</nlu_entities><nlu_intent/><nlu_intent_label/><nlu_model/><nlu_model_label/><nlu_provider>64c023c17300330021a044764df6a70e</nlu_provider><sys_class_name>sys_cs_topic_language</sys_class_name><sys_created_by>Syeda</sys_created_by><sys_created_on>2026-10-13 15:31:19</sys_created_on><sys_domain>global</sys_domain><sys_id>89018b9bc3b34b98f174b13ed4013147</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="NeedIt Virtual Agent Conversations" source="x_1365217_needit_2">8d2ab993c3ffc798f174b13ed4013150</sys_package><sys_policy/><sys_scope display_value="NeedIt Virtual Agent Conversations">8d2ab993c3ffc798f174b13ed4013150</sys_scope><sys_update_name>sys_cs_topic_language_89018b9bc3b34b98f174b13ed4013147</sys_update_name><sys_updated_by>Syeda</sys_updated_by><sys_updated_on>2026-10-13 15:31:19</sys_updated_on></sys_cs_topic_language></record_update>]]></payload>
+        <payload_hash>-1823753282</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>992ab993c3ffc798f174b13ed4013194</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>Syeda</sys_created_by>
+        <sys_created_on>2026-10-13 15:31:19</sys_created_on>
+        <sys_id>4d018b9bc3b34b98f174b13ed4013163</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a135e3badf0000001</sys_recorded_at>
+        <sys_updated_by>Syeda</sys_updated_by>
+        <sys_updated_on>2026-10-13 15:31:19</sys_updated_on>
+        <type>CS Topic Language</type>
+        <update_guid>8d018b9ba5b34b98d1a0b8226ca42149</update_guid>
+        <update_guid_history>8d018b9ba5b34b98d1a0b8226ca42149:-1823753282</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Syeda</sys_created_by>
+        <sys_created_on>2026-10-14 04:26:41</sys_created_on>
+        <sys_db_object display_value="" name="sys_cs_topic_language">sys_cs_topic_language</sys_db_object>
+        <sys_id>1f870e872e334cda87272a58f4ec8344</sys_id>
+        <sys_metadata>89018b9bc3b34b98f174b13ed4013147</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NeedIt Virtual Agent Conversations" source="x_1365217_needit_2">8d2ab993c3ffc798f174b13ed4013150</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt Virtual Agent Conversations">8d2ab993c3ffc798f174b13ed4013150</sys_scope>
+        <sys_scope_delete display_value="">10d281ea3f074eb88dd2aeb68c60eca1</sys_scope_delete>
+        <sys_update_name>sys_cs_topic_language_89018b9bc3b34b98f174b13ed4013147</sys_update_name>
+        <sys_update_version display_value="sys_cs_topic_language_89018b9bc3b34b98f174b13ed4013147">4d018b9bc3b34b98f174b13ed4013163</sys_update_version>
+        <sys_updated_by>Syeda</sys_updated_by>
+        <sys_updated_on>2026-10-14 04:26:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

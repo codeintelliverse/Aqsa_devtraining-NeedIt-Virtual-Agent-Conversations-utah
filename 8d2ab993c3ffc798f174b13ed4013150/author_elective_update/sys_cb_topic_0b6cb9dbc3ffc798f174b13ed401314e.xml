@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="DELETE">
+        <applicability/>
+        <applicability_mode/>
+        <autopilot_topic>false</autopilot_topic>
+        <category/>
+        <channels/>
+        <connect_queue/>
+        <context_profiles/>
+        <description/>
+        <dialog_acts_enabled>false</dialog_acts_enabled>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <foundational>false</foundational>
+        <graph/>
+        <key_phrases/>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <model_type>nlu_keyword</model_type>
+        <modify_confirmation_enabled>false</modify_confirmation_enabled>
+        <name>View Open NeedIt Records</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles/>
+        <root_topic_id/>
+        <secure_custom_input_control>false</secure_custom_input_control>
+        <source_topic_id/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>Syeda</sys_created_by>
+        <sys_created_on>2026-10-13 10:32:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>0b6cb9dbc3ffc798f174b13ed401314e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>View Open NeedIt Records</sys_name>
+        <sys_package display_value="NeedIt Virtual Agent Conversations" source="x_1365217_needit_2">8d2ab993c3ffc798f174b13ed4013150</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt Virtual Agent Conversations">8d2ab993c3ffc798f174b13ed4013150</sys_scope>
+        <sys_update_name>sys_cb_topic_0b6cb9dbc3ffc798f174b13ed401314e</sys_update_name>
+        <sys_updated_by>Syeda</sys_updated_by>
+        <sys_updated_on>2026-10-13 10:32:03</sys_updated_on>
+        <title/>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type/>
+    </sys_cb_topic>
+    <sys_translated_text action="DELETE" query="documentkey=0b6cb9dbc3ffc798f174b13ed401314e"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt Virtual Agent Conversations">8d2ab993c3ffc798f174b13ed4013150</application>
+        <file_path/>
+        <instance_id>e1bc317ffb1b1658843df4344eefdc7c</instance_id>
+        <instance_name>dev294865</instance_name>
+        <name>sys_cb_topic_0b6cb9dbc3ffc798f174b13ed401314e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic"><sys_cb_topic action="INSERT_OR_UPDATE"><applicability/><applicability_mode/><autopilot_topic>false</autopilot_topic><category/><channels/><connect_queue/><context_profiles/><description/><dialog_acts_enabled>false</dialog_acts_enabled><expose_on_palette>false</expose_on_palette><flexible_conversation_switching>false</flexible_conversation_switching><foundational>false</foundational><graph/><key_phrases/><library>false</library><live_agent>false</live_agent><model_type>nlu_keyword</model_type><modify_confirmation_enabled>false</modify_confirmation_enabled><name>View Open NeedIt Records</name><nlu_intent/><nlu_intent_label/><nlu_model/><nlu_model_label/><nlu_provider/><palette_label/><roles/><root_topic_id/><secure_custom_input_control>false</secure_custom_input_control><source_topic_id/><sys_class_name>sys_cb_topic</sys_class_name><sys_created_by>Syeda</sys_created_by><sys_created_on>2026-10-13 10:32:03</sys_created_on><sys_domain>global</sys_domain><sys_id>0b6cb9dbc3ffc798f174b13ed401314e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>View Open NeedIt Records</sys_name><sys_package display_value="NeedIt Virtual Agent Conversations" source="x_1365217_needit_2">8d2ab993c3ffc798f174b13ed4013150</sys_package><sys_policy/><sys_scope display_value="NeedIt Virtual Agent Conversations">8d2ab993c3ffc798f174b13ed4013150</sys_scope><sys_update_name>sys_cb_topic_0b6cb9dbc3ffc798f174b13ed401314e</sys_update_name><sys_updated_by>Syeda</sys_updated_by><sys_updated_on>2026-10-13 10:32:03</sys_updated_on><title/><triggerable_by_notification>false</triggerable_by_notification><type/></sys_cb_topic><sys_translated_text action="delete_multiple" query="documentkey=0b6cb9dbc3ffc798f174b13ed401314e"/></record_update>]]></payload>
+        <payload_hash>396712780</payload_hash>
+        <record_name>View Open NeedIt Records</record_name>
+        <reverted_from/>
+        <source>992ab993c3ffc798f174b13ed4013194</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Syeda</sys_created_by>
+        <sys_created_on>2026-10-13 10:32:03</sys_created_on>
+        <sys_id>158cb9dbc3ffc798f174b13ed40131df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a134d1be150000001</sys_recorded_at>
+        <sys_updated_by>Syeda</sys_updated_by>
+        <sys_updated_on>2026-10-13 10:32:03</sys_updated_on>
+        <type>Topic</type>
+        <update_guid>d18cb9db7cffc798dd078a0c78e86ede</update_guid>
+        <update_guid_history>d18cb9db7cffc798dd078a0c78e86ede:396712780</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Syeda</sys_created_by>
+        <sys_created_on>2026-10-13 10:32:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_cb_topic">sys_cb_topic</sys_db_object>
+        <sys_id>46371254d0414dd08c7a5bb1ffd2a900</sys_id>
+        <sys_metadata>0b6cb9dbc3ffc798f174b13ed401314e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>View Open NeedIt Records</sys_name>
+        <sys_package display_value="NeedIt Virtual Agent Conversations" source="x_1365217_needit_2">8d2ab993c3ffc798f174b13ed4013150</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt Virtual Agent Conversations">8d2ab993c3ffc798f174b13ed4013150</sys_scope>
+        <sys_scope_delete display_value="">10d281ea3f074eb88dd2aeb68c60eca1</sys_scope_delete>
+        <sys_update_name>sys_cb_topic_0b6cb9dbc3ffc798f174b13ed401314e</sys_update_name>
+        <sys_update_version display_value="sys_cb_topic_0b6cb9dbc3ffc798f174b13ed401314e">158cb9dbc3ffc798f174b13ed40131df</sys_update_version>
+        <sys_updated_by>Syeda</sys_updated_by>
+        <sys_updated_on>2026-10-13 10:32:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
